@@ -1,0 +1,24 @@
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Enable-RemoteDesktop
+
+cinst GoogleChrome
+cinst ConEmu
+cinst KickAssVim
+cinst Gow
+cinst putty
+cinst dotPeek
+cinst linqpad4
+cinst python2
+cinst python
+cinst pip
+cinst nodejs.install
+cinst fiddler4
+cinst winmerge
+cinst Devbox-Clink
+
+cinst powertab
+cinst poshgit
+cinst pscx
+cinst PsGet
+cinst WindowsAzurePowershell
+cinst EthanBrown.ConEmuConfig
