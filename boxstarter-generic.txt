@@ -21,7 +21,7 @@ cinst poshgit
 cinst pscx
 cinst PsGet
 cinst WindowsAzurePowershell
-#cinst EthanBrown.ConEmuConfig
+cinst EthanBrown.ConEmuConfig
 
 cinst dotPeek
 cinst linqpad4
