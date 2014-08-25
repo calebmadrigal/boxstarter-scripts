@@ -1,3 +1,7 @@
+$Boxstarter.RebootOk=$true
+$Boxstarter.NoPassword=$false
+$Boxstarter.AutoLogin=$true
+
 Update-ExecutionPolicy Unrestricted
 Enable-RemoteDesktop
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
@@ -17,7 +21,6 @@ cinst pip
 cinst nodejs.install
 cinst fiddler4
 cinst winmerge
-cinst Devbox-Clink
 
 cinst powertab
 cinst poshgit
@@ -25,3 +28,5 @@ cinst pscx
 cinst PsGet
 cinst WindowsAzurePowershell
 #cinst EthanBrown.ConEmuConfig
+
+cinst Devbox-Clink
