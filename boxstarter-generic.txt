@@ -5,7 +5,7 @@ $Boxstarter.AutoLogin=$true
 Update-ExecutionPolicy Unrestricted
 Enable-RemoteDesktop
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
-Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableShowAppsViewOnStartScreen -EnableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
+Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
 Set-CornerNavigationOptions -DisableUpperRightCornerShowCharms -DisableUpperLeftCornerSwitchApps
 
 cinst GoogleChrome
@@ -13,8 +13,6 @@ cinst ConEmu
 cinst KickAssVim
 cinst Gow
 cinst putty
-cinst dotPeek
-cinst linqpad4
 cinst python2
 cinst python
 cinst pip
@@ -29,4 +27,6 @@ cinst PsGet
 cinst WindowsAzurePowershell
 #cinst EthanBrown.ConEmuConfig
 
+cinst dotPeek
 cinst Devbox-Clink
+cinst linqpad4
