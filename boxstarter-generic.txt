@@ -1,6 +1,6 @@
-$Boxstarter.RebootOk=$true
-$Boxstarter.NoPassword=$false
-$Boxstarter.AutoLogin=$true
+#$Boxstarter.RebootOk=$true
+#$Boxstarter.NoPassword=$false
+#$Boxstarter.AutoLogin=$true
 
 Update-ExecutionPolicy Unrestricted
 Enable-RemoteDesktop
