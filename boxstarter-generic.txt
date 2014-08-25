@@ -1,7 +1,3 @@
-#$Boxstarter.RebootOk=$true
-#$Boxstarter.NoPassword=$false
-#$Boxstarter.AutoLogin=$true
-
 Update-ExecutionPolicy Unrestricted
 Enable-RemoteDesktop
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
@@ -28,5 +24,5 @@ cinst WindowsAzurePowershell
 #cinst EthanBrown.ConEmuConfig
 
 cinst dotPeek
-cinst Devbox-Clink
 cinst linqpad4
+cinst Devbox-Clink
