@@ -4,23 +4,23 @@ Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFile
 Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
 Set-CornerNavigationOptions -DisableUpperRightCornerShowCharms -DisableUpperLeftCornerSwitchApps
 
-cinst GoogleChrome
-cinst ConEmu
-cinst KickAssVim
-cinst Gow
-cinst putty
-cinst python2
-cinst python
-cinst pip
-cinst nodejs.install
-cinst fiddler4
-cinst winmerge
+cinst -y GoogleChrome
+cinst -y ConEmu
+cinst -y KickAssVim
+cinst -y Gow
+cinst -y putty
+cinst -y python2
+cinst -y python
+cinst -y pip
+cinst -y nodejs.install
+cinst -y fiddler4
+cinst -y winmerge
 
-cinst powertab
-cinst poshgit
-cinst pscx
-cinst PsGet
+cinst -y powertab
+cinst -y poshgit
+cinst -y pscx
+cinst -y PsGet
 
-cinst dotPeek
-cinst linqpad4
-cinst Devbox-Clink
+cinst -y dotPeek
+cinst -y linqpad4
+cinst -y Devbox-Clink
